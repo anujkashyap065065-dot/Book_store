@@ -1,0 +1,94 @@
+# 📚 Online Book Store SQL Project
+
+## 📌 Project Overview
+
+It explores book information, customer details, orders, sales, revenue, and customer purchasing behavior.
+
+## 🛠️ Tools & Technologies
+- MySQL
+- MySQL Workbench
+- SQL
+
+## 🗄️ Database Structure
+
+The project contains three main tables:
+
+### 1. BOOKS
+- Book_ID
+- Title
+- Author
+- Genre
+- Published_Year
+- Price
+- Stock
+
+### 2. CUSTOMERS
+- Customer_ID
+- Name
+- Email
+- Phone
+- City
+- Country
+
+### 3. ORDERS
+- Order_ID
+- Customer_ID
+- Book_ID
+- Order_Date
+- Quantity
+- Total_Amount
+
+## 📊 SQL Concepts Covered
+
+### Basic SQL Queries
+- SELECT
+- WHERE
+- ORDER BY
+- DISTINCT
+- LIMIT
+- Aggregate Functions (SUM, AVG, COUNT)
+
+### Intermediate SQL Queries
+- INNER JOIN
+- LEFT JOIN
+- GROUP BY
+- HAVING
+- Date Functions
+- CASE Statements
+
+### Advanced SQL Queries
+- Subqueries
+- Common Table Expressions (CTEs)
+- Multiple-table analysis
+- Revenue Analysis
+- Customer Spending Analysis
+- Best-Selling Books Analysis
+
+## 📈 Business Analysis
+This project includes queries to analyze:
+
+- Total revenue generated from orders
+- Total books sold by genre
+- Best-selling books
+- Top-spending customers
+- Monthly and yearly revenue
+- Customer order frequency
+- Authors generating the highest revenue
+- Books that have never been ordered
+- Available book stock
+- Customer spending categories
+
+
+
+**Note:** The SQL script contains database/table creation statements and analysis queries. The required data should be available in the tables before running the analysis queries.
+
+## 👨‍💻 Author
+**Anuj**
+
+Aspiring Data Analyst | SQL | Excel | Power BI | Python
+
+[LinkedIn](https://www.linkedin.com/in/anuj-kashyap-256065362/)
+
+---
+
+⭐ If you find this project useful, feel free to explore the SQL queries and share your feedback!
